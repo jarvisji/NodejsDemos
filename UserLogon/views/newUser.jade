@@ -1,0 +1,12 @@
+//
+   Created by Ting on 2015/4/7.
+
+extends layout
+block content
+    form(method='post', action='/users')
+        div
+            input(name='email', type='email', placeholder='email')
+        div
+            input(name='password',type='password')
+        div
+            input(type='submit', text='Submit')
